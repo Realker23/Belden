@@ -34,7 +34,7 @@ const SearchField = () => {
       <div className="flex items-center justify-center p-4 pt-12 ">
         <div className="flex items-center justify-center space-x-4">
           <input
-            className="border border-gray-300 w-64 py-2 px-4 rounded-lg focus:outline-none focus:border-purple-500"
+            className="border border-gray-300 w-64 py-2 px-4 rounded-lg focus:outline-none focus:border-purple-500 "
             type="text"
             placeholder="Enter 6-digit PINCODE"
             value={pincode}
@@ -74,7 +74,8 @@ const SearchField = () => {
             <PostCard officeArray={officeArray} />
           ) : (
             <div className="text-center m-4">
-              Want to know Post Office Branches ? Enter Pincode..
+              Want to know Post Office Branches at your location ? Enter
+              Pincode..
             </div>
           )}
         </>
